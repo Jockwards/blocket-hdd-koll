@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOCKET HDD TERMINAL // Marknadsintelligens</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="terminal">
+        <header class="terminal-header">
+            <div class="terminal-title">
+                <span class="blink">█</span> BLOCKET HDD TERMINAL <span class="version">v1.337</span>
+            </div>
+            <div class="terminal-subtitle">REALTIDSDATA FRÅN MARKNADEN // LAGRINGSARBITRAGE</div>
+        </header>
+
+        <section class="stats-grid">
+            <div class="stat-block">
+                <div class="stat-label">SNITT.PRIS</div>
+                <div class="stat-value" id="avg-price">--</div>
+                <div class="stat-unit">SEK/TB</div>
+            </div>
+            <div class="stat-block">
+                <div class="stat-label">ANNONSER</div>
+                <div class="stat-value" id="total-listings">--</div>
+                <div class="stat-unit">SPÅRADE</div>
+            </div>
+            <div class="stat-block highlight">
+                <div class="stat-label">FYND</div>
+                <div class="stat-value" id="total-deals">--</div>
+                <div class="stat-unit">AKTIVA</div>
+            </div>
+            <div class="stat-block">
+                <div class="stat-label">UPPDATERAD</div>
+                <div class="stat-value" id="last-updated">--</div>
+                <div class="stat-unit">TIDSSTÄMPEL</div>
+            </div>
+        </section>
+
+        <section class="chart-section">
+            <div class="section-header">
+                <span class="section-icon">📈</span>
+                <h2>PRISUTVECKLING // SEK/TB</h2>
+                <div class="chart-controls">
+                    <button class="terminal-btn active" onclick="updateChart('week')">1V</button>
+                    <button class="terminal-btn" onclick="updateChart('month')">1M</button>
+                    <button class="terminal-btn" onclick="updateChart('year')">1Å</button>
+                </div>
+            </div>
+            <div class="chart-container">
+                <canvas id="priceChart"></canvas>
+            </div>
+        </section>
+
+        <section class="data-section">
+            <div class="section-header">
+                <span class="section-icon">🔥</span>
+                <h2>AKTIVA FYND // TRÖSKEL: ≤150 SEK/TB [HDD] | ≤600 SEK/TB [SSD]</h2>
+            </div>
+            <div class="table-container">
+                <table class="terminal-table">
+                    <thead>
+                        <tr>
+                            <th class="text-center">TYP</th>
+                            <th class="text-center">KAPACITET</th>
+                            <th class="text-center">PRIS</th>
+                            <th class="text-center highlight-col">SEK/TB</th>
+                            <th class="text-center">ÅLDER</th>
+                            <th>PLATS</th>
+                            <th>BESKRIVNING</th>
+                            <th class="text-center">LÄNK</th>
+                        </tr>
+                    </thead>
+                    <tbody id="deals-body">
+                        <tr><td colspan="8" class="loading">[LADDAR DATA...]</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="data-section">
+            <div class="section-header">
+                <span class="section-icon">📊</span>
+                <h2>ALLA ANNONSER // MARKNADSÖVERSIKT</h2>
+            </div>
+            <div class="table-container">
+                <table class="terminal-table">
+                    <thead>
+                        <tr>
+                            <th onclick="sortTable('drive_type')" class="text-center sortable">TYP ▼</th>
+                            <th onclick="sortTable('capacity_tb')" class="text-center sortable">KAPACITET ▼</th>
+                            <th onclick="sortTable('price_sek')" class="text-center sortable">PRIS ▼</th>
+                            <th onclick="sortTable('price_per_tb')" class="text-center highlight-col sortable">SEK/TB ▼</th>
+                            <th onclick="sortTable('age')" class="text-center sortable">ÅLDER ▼</th>
+                            <th>PLATS</th>
+                            <th>BESKRIVNING</th>
+                            <th class="text-center">LÄNK</th>
+                        </tr>
+                    </thead>
+                    <tbody id="listings-body">
+                        <tr><td colspan="8" class="loading">[LADDAR DATA...]</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <footer class="terminal-footer">
+            <div>DATAKÄLLA: BLOCKET.SE // API: blocket-api.se // AI: GEMINI-2.5-FLASH-LITE</div>
+            <div>TRÖSKLAR: HDD≤150 SEK/TB | SSD≤600 SEK/TB | MIN_STORLEK≥1TB | FRAKT_KRÄVS</div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

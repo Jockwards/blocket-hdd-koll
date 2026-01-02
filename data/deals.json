@@ -1,0 +1,85 @@
+[
+  {
+    "id": "19854430",
+    "title": "4 TB extern hårddisk",
+    "price_sek": 599,
+    "capacity_tb": 4,
+    "price_per_tb": 149.75,
+    "url": "https://www.blocket.se/recommerce/forsale/item/19854430",
+    "location": "Vallentuna",
+    "date": "2026-01-02T15:55:21",
+    "confidence": "high"
+  },
+  {
+    "id": "19864088",
+    "title": "Western Digital 4 TB My Cloud Home nätverkslagring",
+    "price_sek": 535,
+    "capacity_tb": 4.0,
+    "price_per_tb": 133.75,
+    "url": "https://www.blocket.se/recommerce/forsale/item/19864088",
+    "location": "Lönashult",
+    "date": "2026-01-02T22:54:25",
+    "confidence": "high"
+  },
+  {
+    "id": "19839663",
+    "title": "Western Digital Blue 1000GB/1TB 3,5\" HDD",
+    "price_sek": 150,
+    "capacity_tb": 1.0,
+    "price_per_tb": 150.0,
+    "url": "https://www.blocket.se/recommerce/forsale/item/19839663",
+    "location": "Falun",
+    "date": "2026-01-01T21:37:38",
+    "confidence": "high"
+  },
+  {
+    "id": "19810661",
+    "title": "Kingston Fury Renegade (2TB SSD) - PCIe 4.0 NVMe M.2 SSD 4TB",
+    "price_sek": 2300,
+    "capacity_tb": 4.0,
+    "price_per_tb": 575.0,
+    "url": "https://www.blocket.se/recommerce/forsale/item/19810661",
+    "location": "Oxelösund",
+    "date": "2025-12-30T19:41:54",
+    "confidence": "high",
+    "is_ssd": true,
+    "drive_type": "SSD"
+  },
+  {
+    "id": "19800225",
+    "title": "1x Samsung 870 QVO 8TB SSD",
+    "price_sek": 4300,
+    "capacity_tb": 8,
+    "price_per_tb": 537.5,
+    "url": "https://www.blocket.se/recommerce/forsale/item/19800225",
+    "location": "Spånga",
+    "date": "2025-12-30T12:26:47",
+    "confidence": "high",
+    "is_ssd": true,
+    "drive_type": "SSD"
+  },
+  {
+    "id": "19800294",
+    "title": "1x Crucial P3 Plus 4TB NVMe SSD",
+    "price_sek": 2150,
+    "capacity_tb": 4,
+    "price_per_tb": 537.5,
+    "url": "https://www.blocket.se/recommerce/forsale/item/19800294",
+    "location": "Spånga",
+    "date": "2025-12-30T12:29:48",
+    "confidence": "high",
+    "is_ssd": true,
+    "drive_type": "SSD"
+  },
+  {
+    "id": "19713325",
+    "title": "Seagate EXOS 3TB/3000GB 7200RPM 3.5\" HDD",
+    "price_sek": 450,
+    "capacity_tb": 3.0,
+    "price_per_tb": 150.0,
+    "url": "https://www.blocket.se/recommerce/forsale/item/19713325",
+    "location": "Falun",
+    "date": "2025-12-26T08:38:22",
+    "confidence": "high"
+  }
+]
