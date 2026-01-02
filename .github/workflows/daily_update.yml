@@ -2,8 +2,9 @@ name: Daily Scrape & Deploy
 
 on:
   schedule:
-    # Run at 12:00 and 19:00 UTC daily
-    - cron: '0 12,19 * * *'
+    # Run at 12:00 and 19:00 CET (UTC+1)
+    # Note: GitHub Actions uses UTC. 11:00 UTC = 12:00 CET.
+    - cron: '0 11,18 * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
