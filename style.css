@@ -143,7 +143,7 @@ body {
     font-weight: 600;
 }
 
-.table-wrapper {
+.table-container {
     overflow-x: auto;
     padding: 0;
 }
@@ -237,6 +237,15 @@ body {
     background: rgba(189, 147, 249, 0.2);
     color: var(--info);
     border: 1px solid var(--info);
+}
+
+.type-ext {
+    color: var(--highlight);
+    font-weight: 600;
+}
+
+.type-int {
+    color: var(--text-muted);
 }
 
 .price-excellent {
@@ -351,12 +360,12 @@ body {
         padding: 12px 20px;
     }
     
-    .data-table {
+    .terminal-table {
         font-size: 11px;
     }
     
-    .data-table th,
-    .data-table td {
+    .terminal-table th,
+    .terminal-table td {
         padding: 8px 10px;
     }
 }

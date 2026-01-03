@@ -74,6 +74,10 @@ Tasks:
    - HDD indicators: "HDD", "mekanisk", "mechanisk", "7200 RPM", "5400 RPM", "WD Red", "WD Blue", "IronWolf", "Exos", "Barracuda"
    - If title/description mentions "SSD" it's definitely an SSD
    - Traditional "extern hårddisk" or "hårddisk" without SSD mentioned is usually HDD
+5. Is this an INTERNAL or EXTERNAL drive?
+   - External indicators: "Extern", "Portable", "USB", "Passport", "Expansion", "Elements", "Backup Plus"
+   - Internal indicators: "Intern", "SATA", "NVMe", "M.2", "3.5", "2.5", "NAS", "Red", "Blue", "IronWolf", "Exos"
+   - If unsure, default to "Internal" unless "Extern" is explicitly mentioned.
 
 Respond ONLY with JSON:
 {{
@@ -81,6 +85,7 @@ Respond ONLY with JSON:
   "capacity_tb": number or null,
   "price_sek": number or null,
   "is_ssd": true/false,
+  "is_external": true/false,
   "confidence": "high/medium/low"
 }}"""
     
@@ -198,6 +203,7 @@ def scrape_and_process():
                 "capacity_tb": parsed['capacity_tb'],
                 "price_per_tb": price_per_tb,
                 "is_ssd": is_ssd,
+                "is_external": parsed.get('is_external', False),
                 "drive_type": drive_type,
                 "url": url,
                 "location": location,

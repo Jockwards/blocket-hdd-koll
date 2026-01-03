@@ -97,7 +97,13 @@ function updateChart(range) {
     
     const labels = filteredHistory.map(entry => {
         const date = new Date(entry.date);
-        return date.toLocaleDateString('sv-SE', { month: 'short', day: 'numeric' });
+        if (range === 'week') {
+            return date.toLocaleString('sv-SE', { weekday: 'short', hour: '2-digit', minute: '2-digit' });
+        } else if (range === 'month') {
+            return date.toLocaleDateString('sv-SE', { month: 'short', day: 'numeric' });
+        } else {
+            return date.toLocaleDateString('sv-SE', { year: 'numeric', month: 'short' });
+        }
     });
     
     const dataPointsHdd = filteredHistory.map(entry => entry.avg_price_hdd || entry.avg_price_per_tb);
@@ -209,12 +215,15 @@ function renderDeals() {
     tbody.innerHTML = dealsData.map(deal => {
         const driveType = deal.is_ssd ? 'SSD' : 'HDD';
         const typeClass = deal.is_ssd ? 'type-ssd' : 'type-hdd';
+        const formType = deal.is_external ? 'EXT' : 'INT';
+        const formClass = deal.is_external ? 'type-ext' : 'type-int';
         const age = getListingAge(deal.date);
         const ageClass = getAgeClass(deal.date);
         
         return `
             <tr class="deal-row">
                 <td class="text-center"><span class="type-badge ${typeClass}">${driveType}</span></td>
+                <td class="text-center"><span class="${formClass}">${formType}</span></td>
                 <td class="text-center">${deal.capacity_tb}TB</td>
                 <td class="text-center">${deal.price_sek} SEK</td>
                 <td class="text-center price-excellent">${deal.price_per_tb}</td>
@@ -246,6 +255,10 @@ function renderListings() {
         if (sortColumn === 'age') {
             aVal = new Date(a.date).getTime();
             bVal = new Date(b.date).getTime();
+        } else if (sortColumn === 'is_external') {
+            // Sort by boolean (false=INT, true=EXT)
+            aVal = a.is_external ? 1 : 0;
+            bVal = b.is_external ? 1 : 0;
         } else if (typeof aVal === 'string') {
             aVal = aVal.toLowerCase();
             bVal = bVal.toLowerCase();
@@ -261,6 +274,8 @@ function renderListings() {
     tbody.innerHTML = sortedData.map(listing => {
         const driveType = listing.is_ssd ? 'SSD' : 'HDD';
         const typeClass = listing.is_ssd ? 'type-ssd' : 'type-hdd';
+        const formType = listing.is_external ? 'EXT' : 'INT';
+        const formClass = listing.is_external ? 'type-ext' : 'type-int';
         const threshold = listing.is_ssd ? 600 : 150;
         
         let priceClass = 'price-high';
@@ -277,6 +292,7 @@ function renderListings() {
         return `
             <tr>
                 <td class="text-center">${typeDisplay}</td>
+                <td class="text-center"><span class="${formClass}">${formType}</span></td>
                 <td class="text-center">${listing.capacity_tb}TB</td>
                 <td class="text-center">${listing.price_sek} SEK</td>
                 <td class="text-center ${priceClass}">${listing.price_per_tb}</td>
