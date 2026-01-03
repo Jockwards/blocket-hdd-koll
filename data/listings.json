@@ -42,20 +42,6 @@
     "confidence": "high"
   },
   {
-    "id": "19814758",
-    "title": "Hårddisk 1,5TB ( 1500GB )",
-    "price_sek": 250,
-    "capacity_tb": 1.5,
-    "price_per_tb": 166.67,
-    "is_ssd": false,
-    "is_external": false,
-    "drive_type": "HDD",
-    "url": "https://www.blocket.se/recommerce/forsale/item/19814758",
-    "location": "Angered",
-    "date": "2025-12-31T09:35:41",
-    "confidence": "high"
-  },
-  {
     "id": "19804317",
     "title": "G-Technology G-Drive USB 3.0 extern hårddisk 4TB silver",
     "price_sek": 900,
