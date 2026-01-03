@@ -82,5 +82,33 @@
     "location": "Falun",
     "date": "2025-12-26T08:38:22",
     "confidence": "high"
+  },
+  {
+    "id": "19854430",
+    "title": "4 TB extern hårddisk",
+    "price_sek": 599,
+    "capacity_tb": 4.0,
+    "price_per_tb": 149.75,
+    "is_ssd": false,
+    "is_external": true,
+    "drive_type": "HDD",
+    "url": "https://www.blocket.se/recommerce/forsale/item/19854430",
+    "location": "Vallentuna",
+    "date": "2026-01-02T15:55:21",
+    "confidence": "high"
+  },
+  {
+    "id": "19881932",
+    "title": "1xSeagate Exos Enteprise X16 16TB HDD",
+    "price_sek": 1850,
+    "capacity_tb": 16.0,
+    "price_per_tb": 115.62,
+    "is_ssd": false,
+    "is_external": false,
+    "drive_type": "HDD",
+    "url": "https://www.blocket.se/recommerce/forsale/item/19881932",
+    "location": "Spånga",
+    "date": "2026-01-03T17:53:50",
+    "confidence": "high"
   }
 ]
