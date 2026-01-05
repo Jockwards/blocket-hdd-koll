@@ -82,5 +82,33 @@
     "location": "Spånga",
     "date": "2026-01-03T17:53:50",
     "confidence": "high"
+  },
+  {
+    "id": "19303379",
+    "title": "NetApp DS14 MK2 med 14×500 GB diskar",
+    "price_sek": 950,
+    "capacity_tb": 7.0,
+    "price_per_tb": 135.71,
+    "is_ssd": false,
+    "is_external": false,
+    "drive_type": "HDD",
+    "url": "https://www.blocket.se/recommerce/forsale/item/19303379",
+    "location": "Spånga",
+    "date": "2025-12-06T20:01:39",
+    "confidence": "high"
+  },
+  {
+    "id": "19298519",
+    "title": "Seagate Barracuda 1TB/1000GB 7200RPM 3.5\" HDD",
+    "price_sek": 150,
+    "capacity_tb": 1.0,
+    "price_per_tb": 150.0,
+    "is_ssd": false,
+    "is_external": false,
+    "drive_type": "HDD",
+    "url": "https://www.blocket.se/recommerce/forsale/item/19298519",
+    "location": "Falun",
+    "date": "2025-12-06T16:39:35",
+    "confidence": "high"
   }
 ]
