@@ -1,33 +1,5 @@
 [
   {
-    "id": "19864088",
-    "title": "Western Digital 4 TB My Cloud Home nätverkslagring",
-    "price_sek": 535,
-    "capacity_tb": 4.0,
-    "price_per_tb": 133.75,
-    "is_ssd": false,
-    "is_external": true,
-    "drive_type": "HDD",
-    "url": "https://www.blocket.se/recommerce/forsale/item/19864088",
-    "location": "Lönashult",
-    "date": "2026-01-02T22:54:25",
-    "confidence": "high"
-  },
-  {
-    "id": "19839663",
-    "title": "Western Digital Blue 1000GB/1TB 3,5\" HDD",
-    "price_sek": 150,
-    "capacity_tb": 1.0,
-    "price_per_tb": 150.0,
-    "is_ssd": false,
-    "is_external": false,
-    "drive_type": "HDD",
-    "url": "https://www.blocket.se/recommerce/forsale/item/19839663",
-    "location": "Falun",
-    "date": "2026-01-01T21:37:38",
-    "confidence": "high"
-  },
-  {
     "id": "19810661",
     "title": "Kingston Fury Renegade (2TB SSD) - PCIe 4.0 NVMe M.2 SSD 4TB",
     "price_sek": 2300,

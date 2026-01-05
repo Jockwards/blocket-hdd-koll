@@ -1,19 +1,5 @@
 [
   {
-    "id": "19859445",
-    "title": "Cepter Vault Extern hårddisk 2TB SSD silver",
-    "price_sek": 1500,
-    "capacity_tb": 2.0,
-    "price_per_tb": 750.0,
-    "is_ssd": true,
-    "is_external": true,
-    "drive_type": "SSD",
-    "url": "https://www.blocket.se/recommerce/forsale/item/19859445",
-    "location": "Knislinge",
-    "date": "2026-01-02T18:41:50",
-    "confidence": "high"
-  },
-  {
     "id": "19836800",
     "title": "1TB hårddisk",
     "price_sek": 899,
@@ -266,20 +252,6 @@
     "confidence": "high"
   },
   {
-    "id": "19864088",
-    "title": "Western Digital 4 TB My Cloud Home nätverkslagring",
-    "price_sek": 535,
-    "capacity_tb": 4.0,
-    "price_per_tb": 133.75,
-    "is_ssd": false,
-    "is_external": true,
-    "drive_type": "HDD",
-    "url": "https://www.blocket.se/recommerce/forsale/item/19864088",
-    "location": "Lönashult",
-    "date": "2026-01-02T22:54:25",
-    "confidence": "high"
-  },
-  {
     "id": "19845102",
     "title": "Samsung 9100 PRO 2TB",
     "price_sek": 2100,
@@ -305,20 +277,6 @@
     "url": "https://www.blocket.se/recommerce/forsale/item/19832274",
     "location": "Bankeryd",
     "date": "2026-01-01T16:01:51",
-    "confidence": "high"
-  },
-  {
-    "id": "19839663",
-    "title": "Western Digital Blue 1000GB/1TB 3,5\" HDD",
-    "price_sek": 150,
-    "capacity_tb": 1.0,
-    "price_per_tb": 150.0,
-    "is_ssd": false,
-    "is_external": false,
-    "drive_type": "HDD",
-    "url": "https://www.blocket.se/recommerce/forsale/item/19839663",
-    "location": "Falun",
-    "date": "2026-01-01T21:37:38",
     "confidence": "high"
   },
   {
@@ -571,48 +529,6 @@
     "url": "https://www.blocket.se/recommerce/forsale/item/19889353",
     "location": "Angered",
     "date": "2026-01-04T05:20:36",
-    "confidence": "high"
-  },
-  {
-    "id": "19906791",
-    "title": "Samsung 990 PRO M.2 NVMe SSD 1TB",
-    "price_sek": 1100,
-    "capacity_tb": 1.0,
-    "price_per_tb": 1100.0,
-    "is_ssd": true,
-    "is_external": false,
-    "drive_type": "SSD",
-    "url": "https://www.blocket.se/recommerce/forsale/item/19906791",
-    "location": "Kramfors",
-    "date": "2026-01-04T17:25:57",
-    "confidence": "high"
-  },
-  {
-    "id": "19903266",
-    "title": "Seagate 1TB",
-    "price_sek": 1100,
-    "capacity_tb": 1.0,
-    "price_per_tb": 1100.0,
-    "is_ssd": false,
-    "is_external": false,
-    "drive_type": "HDD",
-    "url": "https://www.blocket.se/recommerce/forsale/item/19903266",
-    "location": "Göteborg",
-    "date": "2026-01-04T15:47:39",
-    "confidence": "high"
-  },
-  {
-    "id": "19888752",
-    "title": "Hewlett Packard Enterprise SK hynix SSD 1.92TB",
-    "price_sek": 3000,
-    "capacity_tb": 1.92,
-    "price_per_tb": 1562.5,
-    "is_ssd": true,
-    "is_external": false,
-    "drive_type": "SSD",
-    "url": "https://www.blocket.se/recommerce/forsale/item/19888752",
-    "location": "Gävle",
-    "date": "2026-01-04T00:42:13",
     "confidence": "high"
   },
   {
