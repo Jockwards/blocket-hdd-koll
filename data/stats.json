@@ -124,6 +124,13 @@
       "avg_price_hdd": 327.49,
       "avg_price_ssd": 974.86,
       "total_listings": 78
+    },
+    {
+      "date": "2026-01-07T22:13:57.723234",
+      "avg_price_per_tb": 600.22,
+      "avg_price_hdd": 323.19,
+      "avg_price_ssd": 983.17,
+      "total_listings": 81
     }
   ]
 }

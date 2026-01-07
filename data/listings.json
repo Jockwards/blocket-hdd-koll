@@ -112,20 +112,6 @@
     "confidence": "high"
   },
   {
-    "id": "19574729",
-    "title": "WD Red 1.0TB NAS Hårddisk (Testad)",
-    "price_sek": 280,
-    "capacity_tb": 1.0,
-    "price_per_tb": 280.0,
-    "is_ssd": false,
-    "is_external": false,
-    "drive_type": "HDD",
-    "url": "https://www.blocket.se/recommerce/forsale/item/19574729",
-    "location": "Västerås",
-    "date": "2025-12-17T16:50:47",
-    "confidence": "high"
-  },
-  {
     "id": "19529712",
     "title": "Seagate Barracuda Hårddisk 1TB",
     "price_sek": 400,
@@ -364,20 +350,6 @@
     "confidence": "high"
   },
   {
-    "id": "19800294",
-    "title": "1x Crucial P3 Plus 4TB NVMe SSD",
-    "price_sek": 2150,
-    "capacity_tb": 4.0,
-    "price_per_tb": 537.5,
-    "is_ssd": true,
-    "is_external": false,
-    "drive_type": "SSD",
-    "url": "https://www.blocket.se/recommerce/forsale/item/19800294",
-    "location": "Spånga",
-    "date": "2025-12-30T12:29:48",
-    "confidence": "high"
-  },
-  {
     "id": "19787557",
     "title": "HELT NYTT OÖPPNAD Samsung 1TB 970 EVO Plus NVMe M.2 SSD",
     "price_sek": 1250,
@@ -392,20 +364,6 @@
     "confidence": "high"
   },
   {
-    "id": "19713325",
-    "title": "Seagate EXOS 3TB/3000GB 7200RPM 3.5\" HDD",
-    "price_sek": 450,
-    "capacity_tb": 3.0,
-    "price_per_tb": 150.0,
-    "is_ssd": false,
-    "is_external": false,
-    "drive_type": "HDD",
-    "url": "https://www.blocket.se/recommerce/forsale/item/19713325",
-    "location": "Falun",
-    "date": "2025-12-26T08:38:22",
-    "confidence": "high"
-  },
-  {
     "id": "19854430",
     "title": "4 TB extern hårddisk",
     "price_sek": 599,
@@ -417,20 +375,6 @@
     "url": "https://www.blocket.se/recommerce/forsale/item/19854430",
     "location": "Vallentuna",
     "date": "2026-01-02T15:55:21",
-    "confidence": "high"
-  },
-  {
-    "id": "19881932",
-    "title": "1xSeagate Exos Enteprise X16 16TB HDD",
-    "price_sek": 1850,
-    "capacity_tb": 16.0,
-    "price_per_tb": 115.62,
-    "is_ssd": false,
-    "is_external": false,
-    "drive_type": "HDD",
-    "url": "https://www.blocket.se/recommerce/forsale/item/19881932",
-    "location": "Spånga",
-    "date": "2026-01-03T17:53:50",
     "confidence": "high"
   },
   {
@@ -770,20 +714,6 @@
     "confidence": "high"
   },
   {
-    "id": "19298519",
-    "title": "Seagate Barracuda 1TB/1000GB 7200RPM 3.5\" HDD",
-    "price_sek": 150,
-    "capacity_tb": 1.0,
-    "price_per_tb": 150.0,
-    "is_ssd": false,
-    "is_external": false,
-    "drive_type": "HDD",
-    "url": "https://www.blocket.se/recommerce/forsale/item/19298519",
-    "location": "Falun",
-    "date": "2025-12-06T16:39:35",
-    "confidence": "high"
-  },
-  {
     "id": "19160490",
     "title": "OSCOO 1 TB bärbar SSD – USB 3.2 Gen 2",
     "price_sek": 799,
@@ -952,34 +882,6 @@
     "confidence": "high"
   },
   {
-    "id": "19959536",
-    "title": "Helt Ny, oöppnad WD Black SN7100 SSD 1TB",
-    "price_sek": 1000,
-    "capacity_tb": 1.0,
-    "price_per_tb": 1000.0,
-    "is_ssd": true,
-    "is_external": false,
-    "drive_type": "SSD",
-    "url": "https://www.blocket.se/recommerce/forsale/item/19959536",
-    "location": "Avesta",
-    "date": "2026-01-06T17:48:10",
-    "confidence": "high"
-  },
-  {
-    "id": "19956021",
-    "title": "Samsung 990 EVO Plus SSD 4TB",
-    "price_sek": 2800,
-    "capacity_tb": 4.0,
-    "price_per_tb": 700.0,
-    "is_ssd": true,
-    "is_external": false,
-    "drive_type": "SSD",
-    "url": "https://www.blocket.se/recommerce/forsale/item/19956021",
-    "location": "Bro",
-    "date": "2026-01-06T16:22:56",
-    "confidence": "high"
-  },
-  {
     "id": "19956661",
     "title": "SanDisk Creator 1 TB microSD med adapter EAN: 619659217228",
     "price_sek": 700,
@@ -994,20 +896,6 @@
     "confidence": "high"
   },
   {
-    "id": "19940765",
-    "title": "Western Digital Blue 1000GB/1TB 3,5\" HDD",
-    "price_sek": 150,
-    "capacity_tb": 1.0,
-    "price_per_tb": 150.0,
-    "is_ssd": false,
-    "is_external": false,
-    "drive_type": "HDD",
-    "url": "https://www.blocket.se/recommerce/forsale/item/19940765",
-    "location": "Falun",
-    "date": "2026-01-06T09:06:53",
-    "confidence": "high"
-  },
-  {
     "id": "19941213",
     "title": "Samsung 870 EVO SSD 2 TB",
     "price_sek": 1650,
@@ -1019,20 +907,6 @@
     "url": "https://www.blocket.se/recommerce/forsale/item/19941213",
     "location": "Horred",
     "date": "2026-01-06T07:25:43",
-    "confidence": "high"
-  },
-  {
-    "id": "19940778",
-    "title": "HPE 15.36TB SAS 12 Gbps SSD",
-    "price_sek": 13600,
-    "capacity_tb": 15.36,
-    "price_per_tb": 885.42,
-    "is_ssd": true,
-    "is_external": false,
-    "drive_type": "SSD",
-    "url": "https://www.blocket.se/recommerce/forsale/item/19940778",
-    "location": "Boden",
-    "date": "2026-01-06T02:44:20",
     "confidence": "high"
   },
   {
@@ -1061,6 +935,76 @@
     "url": "https://www.blocket.se/recommerce/forsale/item/19944637",
     "location": "Onsala",
     "date": "2026-01-06T11:19:54",
+    "confidence": "high"
+  },
+  {
+    "id": "19978992",
+    "title": "Seagate Barracuda 4TB hårddisk",
+    "price_sek": 500,
+    "capacity_tb": 4.0,
+    "price_per_tb": 125.0,
+    "is_ssd": false,
+    "is_external": false,
+    "drive_type": "HDD",
+    "url": "https://www.blocket.se/recommerce/forsale/item/19978992",
+    "location": "Göteborg",
+    "date": "2026-01-07T16:11:56",
+    "confidence": "high"
+  },
+  {
+    "id": "19979406",
+    "title": "M.2 NVMe SSD 2TB",
+    "price_sek": 2500,
+    "capacity_tb": 2.0,
+    "price_per_tb": 1250.0,
+    "is_ssd": true,
+    "is_external": false,
+    "drive_type": "SSD",
+    "url": "https://www.blocket.se/recommerce/forsale/item/19979406",
+    "location": "Kalmar",
+    "date": "2026-01-07T16:10:55",
+    "confidence": "high"
+  },
+  {
+    "id": "19978689",
+    "title": "Goodram CX400 SSD 1TB",
+    "price_sek": 849,
+    "capacity_tb": 1.0,
+    "price_per_tb": 849.0,
+    "is_ssd": true,
+    "is_external": false,
+    "drive_type": "SSD",
+    "url": "https://www.blocket.se/recommerce/forsale/item/19978689",
+    "location": "Sköndal",
+    "date": "2026-01-07T15:49:22",
+    "confidence": "high"
+  },
+  {
+    "id": "19977440",
+    "title": "Kingston FURY Renegade PCIe M.2 NVME SSD 2TB M2",
+    "price_sek": 1700,
+    "capacity_tb": 2.0,
+    "price_per_tb": 850.0,
+    "is_ssd": true,
+    "is_external": false,
+    "drive_type": "SSD",
+    "url": "https://www.blocket.se/recommerce/forsale/item/19977440",
+    "location": "Norrköping",
+    "date": "2026-01-07T15:19:17",
+    "confidence": "high"
+  },
+  {
+    "id": "19769932",
+    "title": "Kingston NV3 2TB",
+    "price_sek": 2000,
+    "capacity_tb": 2.0,
+    "price_per_tb": 1000.0,
+    "is_ssd": true,
+    "is_external": false,
+    "drive_type": "SSD",
+    "url": "https://www.blocket.se/recommerce/forsale/item/19769932",
+    "location": "Jönköping",
+    "date": "2026-01-06T22:53:24",
     "confidence": "high"
   }
 ]
