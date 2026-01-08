@@ -68,5 +68,19 @@
     "location": "Göteborg",
     "date": "2026-01-07T16:11:56",
     "confidence": "high"
+  },
+  {
+    "id": "19989770",
+    "title": "Western Digital Blue 1000GB/1TB 3,5\" HDD",
+    "price_sek": 150,
+    "capacity_tb": 1.0,
+    "price_per_tb": 150.0,
+    "is_ssd": false,
+    "is_external": false,
+    "drive_type": "HDD",
+    "url": "https://www.blocket.se/recommerce/forsale/item/19989770",
+    "location": "Falun",
+    "date": "2026-01-08T08:19:58",
+    "confidence": "high"
   }
 ]

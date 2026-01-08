@@ -462,20 +462,6 @@
     "confidence": "high"
   },
   {
-    "id": "19929821",
-    "title": "LaCie Rugged Mini Extern hårddisk 2 TB",
-    "price_sek": 700,
-    "capacity_tb": 2.0,
-    "price_per_tb": 350.0,
-    "is_ssd": false,
-    "is_external": true,
-    "drive_type": "HDD",
-    "url": "https://www.blocket.se/recommerce/forsale/item/19929821",
-    "location": "Nacka",
-    "date": "2026-01-05T16:22:58",
-    "confidence": "high"
-  },
-  {
     "id": "19824598",
     "title": "WD Elements 2 TB extern hårddisk (WD20NMVW)",
     "price_sek": 750,
@@ -756,20 +742,6 @@
     "confidence": "high"
   },
   {
-    "id": "18960501",
-    "title": "2TB SSD OWC Mercury Electra 6G",
-    "price_sek": 1250,
-    "capacity_tb": 2.0,
-    "price_per_tb": 625.0,
-    "is_ssd": true,
-    "is_external": false,
-    "drive_type": "SSD",
-    "url": "https://www.blocket.se/recommerce/forsale/item/18960501",
-    "location": "Stockholm",
-    "date": "2025-11-23T12:52:53",
-    "confidence": "high"
-  },
-  {
     "id": "18921334",
     "title": "1TB HDD Ny oanvänd.",
     "price_sek": 249,
@@ -1005,6 +977,34 @@
     "url": "https://www.blocket.se/recommerce/forsale/item/19769932",
     "location": "Jönköping",
     "date": "2026-01-06T22:53:24",
+    "confidence": "high"
+  },
+  {
+    "id": "17856866",
+    "title": "Time Capsule 1TB",
+    "price_sek": 250,
+    "capacity_tb": 1.0,
+    "price_per_tb": 250.0,
+    "is_ssd": false,
+    "is_external": false,
+    "drive_type": "HDD",
+    "url": "https://www.blocket.se/recommerce/forsale/item/17856866",
+    "location": "Stockholm",
+    "date": "2026-01-08T12:59:07",
+    "confidence": "low"
+  },
+  {
+    "id": "19989770",
+    "title": "Western Digital Blue 1000GB/1TB 3,5\" HDD",
+    "price_sek": 150,
+    "capacity_tb": 1.0,
+    "price_per_tb": 150.0,
+    "is_ssd": false,
+    "is_external": false,
+    "drive_type": "HDD",
+    "url": "https://www.blocket.se/recommerce/forsale/item/19989770",
+    "location": "Falun",
+    "date": "2026-01-08T08:19:58",
     "confidence": "high"
   }
 ]
