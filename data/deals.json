@@ -56,20 +56,6 @@
     "confidence": "high"
   },
   {
-    "id": "19978992",
-    "title": "Seagate Barracuda 4TB hårddisk",
-    "price_sek": 500,
-    "capacity_tb": 4.0,
-    "price_per_tb": 125.0,
-    "is_ssd": false,
-    "is_external": false,
-    "drive_type": "HDD",
-    "url": "https://www.blocket.se/recommerce/forsale/item/19978992",
-    "location": "Göteborg",
-    "date": "2026-01-07T16:11:56",
-    "confidence": "high"
-  },
-  {
     "id": "19989770",
     "title": "Western Digital Blue 1000GB/1TB 3,5\" HDD",
     "price_sek": 150,
@@ -81,6 +67,20 @@
     "url": "https://www.blocket.se/recommerce/forsale/item/19989770",
     "location": "Falun",
     "date": "2026-01-08T08:19:58",
+    "confidence": "high"
+  },
+  {
+    "id": "20022445",
+    "title": "UGREEN NASync DXP8800 Plus NAS-enhet 256TB svart",
+    "price_sek": 12500,
+    "capacity_tb": 256,
+    "price_per_tb": 48.83,
+    "is_ssd": false,
+    "is_external": false,
+    "drive_type": "HDD",
+    "url": "https://www.blocket.se/recommerce/forsale/item/20022445",
+    "location": "Västerås",
+    "date": "2026-01-09T16:04:22",
     "confidence": "high"
   }
 ]
